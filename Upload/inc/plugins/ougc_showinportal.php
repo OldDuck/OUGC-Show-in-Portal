@@ -359,8 +359,6 @@ function ougc_showinportal_moderation()
 {
 	global $mybb;
 
-	global $mybb;
-
 	// Custom moderator tools process
 	if(!in_array($mybb->get_input('action'), array('showinportal', 'multishowinportal', 'multiunshowinportal')))
 	{
